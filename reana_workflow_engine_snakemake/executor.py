@@ -108,7 +108,6 @@ class REANAClusterExecutor(GenericClusterExecutor):
                     "c4p_request_gpus": job.resources.get("c4p_request_gpus"),
                     "c4p_memory_limit": job.resources.get("c4p_memory_limit"),
                     "c4p_notification": job.resources.get("c4p_notification"),
-                    "c4p_email_address": job.resources.get("c4p_email_address"),
                     "c4p_additional_requirements": job.resources.get(
                         "c4p_additional_requirements"
                     ),
